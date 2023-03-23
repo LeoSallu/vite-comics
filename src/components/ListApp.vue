@@ -140,7 +140,9 @@
     nav{
         display: flex;
         padding: 20px;
-        background-image: url('public/img/footer-bg.jpg');
+        background-image: url('public/img/footer-bg.jpg'),url('public/img/dc-logo-bg.png');
+        background-position: 10% 10%,  80% 80%;
+        background-size: 80%, 10%;
         background-size: cover;
         h4{
             color: white;
