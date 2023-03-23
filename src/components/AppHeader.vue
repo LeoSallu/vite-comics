@@ -85,6 +85,10 @@
         li{
             padding: 15px;
             font-size: 12px;
+            &:hover {
+                color: $secondary;
+                border-bottom: 5px solid $secondary;
+            }
         }
         li a {
             color: $primary;
