@@ -16,3 +16,6 @@ export default{
 <AppMain></AppMain>
 <AppFooter></AppFooter>
 </template>
+<style lang="scss">
+      @use "../scss/variables.scss";
+</style>

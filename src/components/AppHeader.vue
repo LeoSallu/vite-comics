@@ -4,34 +4,44 @@
             return{
             menuItem:[
                 {
-                    menuName: 'CHARACTERS'
+                    menuName: 'CHARACTERS',
+                    target: '_self'
                 },
                 {
-                    menuName: 'COMICS'
+                    menuName: 'COMICS',
+                    target: '_self'
                 },
                 {
-                    menuName: 'MOVIES'
+                    menuName: 'MOVIES',
+                    target: '_self'
                 },
                 {
-                    menuName: 'TV'
+                    menuName: 'TV',
+                    target: '_self'
                 },
                 {
-                    menuName: 'GAMES'
+                    menuName: 'GAMES',
+                    target: '_self'
                 },
                 {
-                    menuName: 'COLLECTIBLES'
+                    menuName: 'COLLECTIBLES',
+                    target: '_self'
                 },
                 {
-                    menuName: 'VIDEOS'
+                    menuName: 'VIDEOS',
+                    target: '_self'
                 },
                 {
-                    menuName: 'FANS'
+                    menuName: 'FANS',
+                    target: '_self'
                 },
                 {
-                    menuName: 'NEWS'
+                    menuName: 'NEWS',
+                    target: '_self'
                 },
                 {
-                    menuName: 'SHOP'
+                    menuName: 'SHOP',
+                    target: '_self'
                 }
             ]
         }
@@ -48,7 +58,7 @@
             <div class="menu">
                 <ul class="menu-list">
                     <li v-for="menu in menuItem">
-                        {{menu.menuName}}
+                        <a href="#" target="{{menu.target}}">{{menu.menuName}}</a>
                     </li>
                 </ul>
             </div>
@@ -57,17 +67,25 @@
 </template>
 
 <style lang="scss" scoped>
+
     .container{
+        width: 1200px;
+        margin: 0 auto;
         display: flex;
         justify-content: space-between;
-        width: 700px;
-        margin: 0 auto;
+        align-items: center;
         .logo,.menu{
             padding: 10px;
+
         }
         .menu .menu-list{
             list-style: none;
             display: flex;
+        }
+        li{
+            padding: 15px;
+            font-size: 12px;
+            color: $primary;
         }
     }
 </style>
