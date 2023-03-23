@@ -67,7 +67,7 @@
 </template>
 
 <style lang="scss" scoped>
-
+@import "../scss/variables.scss";
     .container{
         width: 1200px;
         margin: 0 auto;
@@ -85,7 +85,10 @@
         li{
             padding: 15px;
             font-size: 12px;
+        }
+        li a {
             color: $primary;
+            text-decoration: none;
         }
     }
 </style>
