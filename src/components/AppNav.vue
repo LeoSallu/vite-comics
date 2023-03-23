@@ -47,41 +47,39 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@import "../scss/variables.scss";
-nav{
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    background-color: $secondary;
-}
-.menu-container{
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    padding: 10px;
-        a{
-            color: white;
-            text-decoration: none;
-            &:hover{
-                border-bottom: 2px solid white;
+    @import "../scss/variables.scss";
+    nav{
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        background-color: $secondary;
+    }
+    .menu-container{
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        padding: 10px;
+            a{
+                color: white;
+                text-decoration: none;
+                &:hover{
+                    border-bottom: 2px solid white;
+                }
             }
-        }
-        .img{
-            width: 60px;
-            padding: 5px;
-        }
-        img{
-            width: 100%;
-            display: block;
-            object-fit:center;
-        }
-    
-
-}
-ul{
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+            .img{
+                width: 60px;
+                padding: 5px;
+            }
+            img{
+                width: 100%;
+                display: block;
+                object-fit:center;
+            }
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 </style>

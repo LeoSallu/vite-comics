@@ -17,7 +17,6 @@ import ListApp from './ListApp.vue';
     </main>
     <AppNav></AppNav>
     <ListApp></ListApp>
-
 </template>
 
 <style lang="scss" scoped>
