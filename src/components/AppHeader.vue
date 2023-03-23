@@ -75,7 +75,7 @@
         justify-content: space-between;
         align-items: center;
         .logo,.menu{
-            padding: 10px;
+            padding: 20px;
 
         }
         .menu .menu-list{
@@ -89,6 +89,9 @@
         li a {
             color: $primary;
             text-decoration: none;
+                &:hover{
+                color: $secondary;
+                }
         }
     }
 </style>
