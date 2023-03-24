@@ -69,14 +69,13 @@
 <style lang="scss" scoped>
 @use '../scss/variables.scss' as * ;
     .container{
-        width: 1200px;
+        max-width: 1200px;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
         align-items: center;
         .logo,.menu{
             padding: 20px;
-
         }
         .menu .menu-list{
             list-style: none;

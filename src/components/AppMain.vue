@@ -1,29 +1,24 @@
 <script>
+import JumboTron from './JumboTron.vue';
 import AppNav from './AppNav.vue';
 import ListApp from './ListApp.vue';
     export default{
         components:{
             AppNav,
-            ListApp
+            ListApp,
+            JumboTron
         }
     }
 </script>
 
 <template>
-    <main class="container">
-        <div class="content">
-            - Content goes Here -
-        </div>
+    <main>
+        <JumboTron />
+        <AppNav />
+        <ListApp />
     </main>
-    <AppNav></AppNav>
-    <ListApp></ListApp>
 </template>
 
 <style lang="scss" scoped>
-@use '../scss/variables.scss' as * ;
-.container{
-        height: 130px;
-        color: $secondary;
-        background-color:$primary;
-}
+    @use '../scss/variables.scss' as * ;
 </style>

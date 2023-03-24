@@ -50,6 +50,8 @@
         background-color: $primary;
         padding: 10px;
         .container{
+            max-width: 1200px;
+            margin: 0 auto;
             display: flex;
             justify-content: space-between;
             align-items:center;
