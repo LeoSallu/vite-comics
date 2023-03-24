@@ -6,7 +6,7 @@
 
 <template>
     <div class="jumbotron">
-        <img src="../../public/img/jumbotron.jpg" alt="jumbotron">
+        <img src="src/assets/img/jumbotron.jpg" alt="jumbotron">
     </div>
 </template>
 <style lang="scss" scoped>

@@ -101,7 +101,7 @@ export default {
     </div>
 </template>
 <style lang="scss" scoped>
-@use '../scss/variables.scss' as *;
+@use '../../styles/variables.scss' as *;
 
 .background {
     background-color: #1c1c1c;

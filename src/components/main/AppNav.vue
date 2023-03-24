@@ -5,23 +5,23 @@ export default {
             menuList: [
                 {
                     item: 'DIGITAL COMICS',
-                    imgPath:'public/img/buy-comics-digital-comics.png'
+                    imgPath:'./src/assets/img/buy-comics-digital-comics.png'
                 },                
                 {
                     item: 'DC MERCHANDISE',
-                    imgPath:'/public/img/buy-comics-merchandise.png'
+                    imgPath:'./src/assets/img/buy-comics-merchandise.png'
                 },
                 {
                     item: 'SUBSCRIPTION',
-                    imgPath:'./public/img/buy-comics-subscriptions.png'
+                    imgPath:'./src/assets/img/buy-comics-subscriptions.png'
                 },
                 {
                     item: 'COMIC SHOP LOCATOR',
-                    imgPath:'./public/img/buy-comics-shop-locator.png'
+                    imgPath:'./src/assets/img/buy-comics-shop-locator.png'
                 },
                 {
                     item: 'DC POWER VISA',
-                    imgPath:'./public/img/buy-dc-power-visa.svg'
+                    imgPath:'./src/assets/img/buy-dc-power-visa.svg'
                 }
             ]
         }
@@ -47,7 +47,7 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-    @import "../scss/variables.scss";
+    @import "../../styles/variables.scss";
     nav{
         display: flex;
         justify-content: center;

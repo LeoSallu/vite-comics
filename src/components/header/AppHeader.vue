@@ -53,7 +53,7 @@
     <header>
         <div class="container">
             <div class="logo">
-                <img src="public/img/dc-logo.png" alt="logo-dc">
+                <img src="src/assets/img/dc-logo.png" alt="logo-dc">
             </div>  
             <div class="menu">
                 <ul class="menu-list">
@@ -67,7 +67,7 @@
 </template>
 
 <style lang="scss" scoped>
-@use '../scss/variables.scss' as * ;
+@use '../../styles/variables.scss' as * ;
     .container{
         max-width: 1200px;
         margin: 0 auto;

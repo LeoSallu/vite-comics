@@ -4,19 +4,19 @@
             return{
                 icon:[
                     {
-                        pathImg:'/public/img/footer-facebook.png'
+                        pathImg:'./src/assets/img/footer-facebook.png'
                     },
                     {
-                        pathImg:'/public/img/footer-twitter.png'
+                        pathImg:'./src/assets/img/footer-twitter.png'
                     },
                     {
-                        pathImg:'/public/img/footer-youtube.png'
+                        pathImg:'./src/assets/img/footer-youtube.png'
                     },
                     {
-                        pathImg:'/public/img/footer-pinterest.png'
+                        pathImg:'./src/assets/img/footer-pinterest.png'
                     },
                     {
-                        pathImg:'/public/img/footer-periscope.png'
+                        pathImg:'./src/assets/img/footer-periscope.png'
                     }
                 ]
             }
@@ -45,7 +45,7 @@
 </template>
 
 <style lang="scss" scoped>
-@use '../scss/variables.scss' as * ;
+@use '../../styles/variables.scss' as * ;
     footer{
         background-color: $primary;
         padding: 10px;
