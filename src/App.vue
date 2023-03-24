@@ -17,4 +17,5 @@ export default{
   <AppFooter></AppFooter>
 </template>
 <style lang="scss">
+
 </style>

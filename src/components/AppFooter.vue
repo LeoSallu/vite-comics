@@ -45,7 +45,7 @@
 </template>
 
 <style lang="scss" scoped>
-@import "../scss/variables.scss";
+@use '../scss/variables.scss' as * ;
     footer{
         background-color: $primary;
         padding: 10px;

@@ -67,7 +67,7 @@
 </template>
 
 <style lang="scss" scoped>
-@import "../scss/variables.scss";
+@use '../scss/variables.scss' as * ;
     .container{
         width: 1200px;
         margin: 0 auto;

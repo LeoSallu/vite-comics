@@ -20,7 +20,7 @@ import ListApp from './ListApp.vue';
 </template>
 
 <style lang="scss" scoped>
-@import "../scss/variables.scss";
+@use '../scss/variables.scss' as * ;
 .container{
         height: 130px;
         color: $secondary;
