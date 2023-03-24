@@ -149,10 +149,10 @@ export default {
 <style lang="scss" scoped>
 nav {
     padding: 20px;
-    background-image: url('public/img/footer-bg.jpg'), url('public/img/dc-logo-bg.png');
-    background-position: 10% 10%, 80% 80%;
-    background-size: 80%, 10%;
-    background-size: cover;
+    // background-image: url('public/img/footer-bg.jpg'), url('public/img/dc-logo-bg.png');
+    // background-position: 10% 10%, 80% 80%;
+    // background-size: 80%, 10%;
+    // background-size: cover;
 
     .list-app-container {
         max-width: 1200px;

@@ -1,12 +1,14 @@
 <script>
 import JumboTron from './JumboTron.vue';
+import ComicsShop from './ComicsShop.vue';
 import AppNav from './AppNav.vue';
 import ListApp from './ListApp.vue';
     export default{
         components:{
             AppNav,
             ListApp,
-            JumboTron
+            JumboTron,
+            ComicsShop
         }
     }
 </script>
@@ -14,11 +16,8 @@ import ListApp from './ListApp.vue';
 <template>
     <main>
         <JumboTron />
+        <ComicsShop />
         <AppNav />
         <ListApp />
     </main>
 </template>
-
-<style lang="scss" scoped>
-    @use '../scss/variables.scss' as * ;
-</style>
